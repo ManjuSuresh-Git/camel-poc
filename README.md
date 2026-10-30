@@ -26,23 +26,3 @@ REST APIs
 Postman
 Git
 
-**Project Flow**
-Input File
-    |
-    v
-File Route
-    |
-    v
-Split Records
-    |
-    v
-Validate Records
-    |
-    v
-Transform Data
-    |
-    v
-Invoke REST Service
-    |
-    v
-Success Response
