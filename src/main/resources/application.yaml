@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: shipment-camel
+
+server:
+  port: 8080
+
+camel:
+  springboot:
+    main-run-controller: true
+
+file:
+  input-dir: data/input
+  success-dir: data/success
+  error-dir: data/error
+
+external:
+  api:
+    url: http://localhost:8080/api/shipment/process
